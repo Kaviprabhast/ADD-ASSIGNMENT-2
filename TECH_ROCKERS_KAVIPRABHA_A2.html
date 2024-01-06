@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>SriEshwar Conference</title>
+    </head>
+    <body>
+        <center><h1 style="color:aquamarine">SriEshwar Tech.Inc</h1></center>
+        <center><h1>SriEshwar Conference Registration Form</h1></center>
+        <form action="Result_A2.html" method="GET">
+            <table width="15%">
+                <tr>
+                <td><label for="name"> Name:</label></td>
+                <td><input type="text" name="Name" id="name" placeholder="Enter your Name" required></td>
+                </tr>
+                <tr>
+                <td><label for="email"> EMail:</label></td>
+                <td><input type="email" name="Email" id="email" placeholder="abc@gmail.com" required="@"></td>
+                </tr>
+                <tr>
+                <td><label for="Country Code">Country Code:</label></td>
+                <td><input type="number" name ="CountryCode" id="countrycode" maxlength="4" 
+                    placeholder="+91" required></td>
+                </tr>
+                <tr>
+                <td><label for="phonenumber">Phone Number:</label></td>
+                <td><input type="number" name="Phone Number" id="Phonenumber" maxlength="10" 
+                placeholder="Enter your Phone Number" required></td>
+                <tr>
+                <td><label for="CompanyName">Company Name:</label></td>
+                <td><input type="text" name="CompanyName" id="Company Name" maxlength="20" 
+                placeholder="Enter your company name" required></td>
+                </tr>
+                <tr>
+                <td><label for="JobTitle">Job Title:</label></td>
+                <td><input type="text" name="Job Title" id="JobTitle"
+                placeholder="Enter your job title" required></td>
+                </tr>
+                <tr>
+                <td><lable required>Gender</lable></td>
+                <td><label for="Male">Male:</label>
+                <input type="radio" name="Gender" id="Male">
+                <label for="Female">Female:</label>
+                <input type="radio" name="Gender" id="Female"></td>
+                </tr>
+                <tr>
+                <td><label for="age">Age:</label></td>
+                <td><input type="number" name="Age" id="age" min="18" max="70" placeholder="Enter your Age" required></td>
+                </tr>
+                <tr>
+                <td><label for="country">Country:</label></td>
+                <td><input type="text" name="Country" id="country" placeholder="Entre the country name" required></td>
+                </tr>
+                <tr>
+                <td><label for="city">City:</label></td>
+               <td><input type="text" name="City" id="city" placeholder="Enter your city" required></td>
+               </tr>
+               <tr>
+                <td><label for="Dietary Preferences">Dietary Preferences:</label></td>
+                    <td><select name="Dietary Preferences" id="Dietary Preferences" multiple>
+                       <optgroup label="Veg">
+                          <option>Pongal</option>
+                          <option>Pori</option>
+                          <option>Dosa</option>
+                          <option>Tomato Rice</option>
+                       </optgroup>
+                    </select></td>
+                        <td><select name="Dietary Preferences" id="Dietary Preferences" multiple>
+                           <optgroup label="Non-Veg">
+                              <option>Chicken Biriyani</option>
+                              <option>Fish Fry</option>
+                              <option>Chicken 65</option>
+                              <option>Egg Biriyani</option>
+                           </optgroup>
+                        </select></td>
+                        </tr>
+             <tr>
+                <td><label for="T-Shirt Size">T-Shirt Size:</label></td>
+                <td><select name="T-Shirt Size" id="T-ShirtSize">
+                  <optgroup label="T-ShirtSize">
+                      <option>S</option>
+                      <option>M</option>
+                      <option>L</option>
+                      <option>XL</option>
+                      <option>XXL</option>
+                   </optgroup>
+                </select></td>
+                </tr>
+              <tr>
+                <td><label for="preferred t-shirt color">Preferred T-shirt color:</label></td>
+                <td><input type="color" name="Preferred T-shirt Color" id="Preferred T-shirt Color"></td>
+                </tr>
+                <tr>
+                <td>Session Preferences:</td>
+                <td><label for = "Session 1">Session 1 </label>
+                <input type="checkbox" name ="Session Preferences" id="Session 1">
+                <label for = "Session 2">Session 2 </label>
+                <input type="checkbox" name ="Session Preferences" id="Session 2">
+                <label for = "Session 3">Session 3 </label>
+                <input type="checkbox" name ="Session Preferences" id="Session 3"></td>
+              </tr>
+              <tr>
+                <td><label for="Workshop Selection">Workshop Selection</label></td>
+                <td><select name="Workshop Selection" id="Workshop Selection" required>
+                <optgroup label="Workshop Selection">
+                      <option>Bidder Street Motors</option>
+                      <option>Auto Gurdians Car</option>
+                      <option>Five Speed Motors</option>
+                      <option>Fantastic Garage</option>
+                   </optgroup>
+                </select></td>
+                </tr>
+                <tr>
+                <td><label for="Date of attending the workshop">Date of attending the workshop</label></td>
+                <td><select name="Date of attending the workshop" id="Date of attending the workshop" required>
+                <optgroup label="Date of attending the workshop">
+                       <option>25 oct 2023</option>
+                       <option>26 oct 2023</option>
+                       <option>27 oct 2023</option>
+                    </optgroup>
+                 </select></td>
+                 </tr>
+                 <tr>
+                    <td><label required>Will you bring a guest?</label></td>
+                    <td><label for="guest">Yes</label>
+                    <input type="radio" name="guest" id="guest">
+                    <label for="guest">No</label>
+                    <input type="radio" name="guest" id="guest"></td>
+                    </tr>
+                    <tr>
+                        <td><b>IF YOU BRING GUEST</b></td>
+                    </tr>
+                    <tr>
+                    <td><label for="name">Guest's Name:</label></td>
+                    <td><input type="text" name="Guest'sName" id="name"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Guest Dietary Preferences">Guest's Dietary Preferences:</label></td>
+                            <td><select name="Dietary Preferences" id="Dietary Preferences" multiple>
+                               <optgroup label="Veg">
+                                  <option>Pongal</option>
+                                  <option>Pori</option>
+                                  <option>Dosa</option>
+                                  <option>Tomato Rice</option>
+                               </optgroup>
+                            </select></td>
+                                <td><select name="Dietary Preferences" id="Dietary Preferences" multiple>
+                                   <optgroup label="Non-Veg">
+                                      <option>Chicken Biriyani</option>
+                                      <option>Fish Fry</option>
+                                      <option>Chicken 65</option>
+                                      <option>Egg Biriyani</option>
+                                   </optgroup>
+                                </select></td>
+                                </tr>
+                    <tr>
+                    <td><label required>Preferred Payment Method:</label></td>
+                    <td><label for = "PaymentMethod" required>Credit Card</label>
+                    <input type="radio" name ="PaymentMethod" id="Credit Card">
+                    <label for = "Payment Method">Debit Card</label>
+                    <input type="radio" name = "Payment Method" id="Debit Card"></td>
+                    </tr>
+                    <tr>
+                    <td><label for="Card number"> Card Number:</label></td>
+                    <td><input type="password" name="Card number" id="Card number" max="16" 
+                    placeholder="Enter the card number" required></td>
+                    </tr>
+                    <tr>
+                    <td><label for="expiry date"> Card Expiration Date:</label></td>
+                    <td><input type="month" name="expiry date" id="expiry date" required></td>
+                    </tr>
+                    <tr>
+                    <td><label for="Card CVV"> Card CVV:</label></td>
+                    <td><input type="password" name="Card CVV" id="Card CVV" max="3" required></td>
+                    </tr>
+                    <tr>
+                    <td><label for="addr">Billing Address:</label></td>
+                    <td><textarea name="address" id="address" cols="15"
+                     rows="5" placeholder="Enter your Billing Address" required></textarea></td>
+                     </tr>
+                     <tr>
+                    <td><label required>How did you hear about us?</label></td>
+                    <td><label for="Advertisement">Advertisement</label>
+                    <input type="checkbox" name="How you hear about us?" id="advertisement">
+                    <label for="Website">Website</label>
+                    <input type="checkbox" name="How you hear about us?" id="Website">
+                    <label for="Posters">Posters</label>
+                    <input type="checkbox" name="How you hear about us?" id="Posters">
+                    <label for="Others">Others</label>
+                    <input type="checkbox" name="How you hear about us?" id="Others"></td>
+                    </tr>
+                    <tr>
+                    <td><label for=upload> Upload Photo for ID Card</label></td>
+                    <td><input type="file" name="upload photo for ID Card" id="upload photo"
+                        accept.file="jpg" required></td>
+                    </tr>
+                    <tr>
+                    <td><label for=profile>Collect Profile</label></td>
+                    <td><input type="file" name="upload profile" id="upload profile"
+                        accept.file="pdf" enctype="multipart/form-data" required></td>
+                    </tr>
+                    <tr>
+                    <td><label for=comments>Additional Comments: </label></td>
+                    <td><textarea name="comments" id="comments" cols="15"
+                     rows="5" placeholder="Enter Additional Comments" required></textarea></td>
+                     </tr>
+                     <tr>
+                     <td><button type="submit">Submit</button></td>
+                     <td><button type="reset">Reset</button></td>
+                     </tr>
+                     <tr>
+                        <th>Team Leader</th><br>
+                        <td>S.T.KAVIPRABHA</td>
+                        </tr>
+                        <tr>
+                        <th>Team Members</th><br>
+                        <td>G.KAVI SHANTHINI</td><br>
+                        <td>K.S.NISA SOWBIKA</td><br>
+                        <td>A.MIDHUNA</td>
+                     </tr>
+                    </table>
+        </form>
+    </body>
+</html>
